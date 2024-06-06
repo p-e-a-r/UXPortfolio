@@ -1,0 +1,470 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #090909;
+    font-family: "Roboto Serif";
+
+}
+
+body {
+    overflow-x: hidden;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.navbar {
+    height: 99px;
+    font-size: 16px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.nav-list {
+    display: flex;
+    gap: 56px;
+}
+
+.fp{
+    height: 818px;
+    background-color: #FAF8F6;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.cover-img{
+    width: 100%;
+    height: 399px;
+    background-color: gray;
+    margin-top: 48px;
+}
+.titles{
+    margin-top: 24px;
+    text-align: center;
+}
+
+.sub-titles{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+.p-type{
+    margin-top: 10px;
+}
+.p-1{
+    font-weight: 700;
+}
+.h3-title{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 24px;
+}
+.h2-title{
+    font-size: 32px;
+}
+.scope{
+    margin-left: -112px;
+}
+
+.main{
+    width: 1140px;
+    margin: auto;
+}
+
+.res-1c{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.why{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.h1-why{
+    font-size: 56px;
+}
+
+.one-c{
+    width: 480px;
+}
+.two-c{
+    width: 614px;
+}
+.span-why{
+    color: #EB1C24;
+    font-family: "Roboto Mono";
+    font-weight: bold;
+    margin-top: 128px;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+.test1-why{
+    margin-top: 10px;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 14px;
+}
+.test2-why{
+    margin-top: 8px;
+    font-style: italic;
+    font-size: 14px;
+    color: #656565;
+}
+.hr {
+    margin-top: 56px;
+    margin-bottom: 16px;
+    height: 0.6px;
+    background-color: #D9D7D7;
+}
+p{
+    line-height: 140%;
+}
+.p1-why{
+    margin-top: 16px;
+}
+.bold{
+    font-weight: 600;
+}
+.img2-why{
+    margin-top: 64px;
+}
+
+.goal{
+    margin-top: 64px;
+    margin-bottom: 98px;
+}
+.h1-goal{
+    margin-top: 16px;
+    font-size: 52px;
+}
+.research{
+    margin-top: 64px;
+}
+.res-1c > .one-c > p {
+    margin-bottom: 16px;
+}
+.img-text-process{
+    color: #656565;
+    font-style: italic;
+    font-size: 14px;
+    margin-left: 8px;
+}
+.feed-span{
+    color: #EB1C24;
+    font-family: "Roboto Mono";
+    font-weight: bold;
+    font-size: 14px;
+}
+.feedback{
+    margin-top: 42px;
+}
+.fd{
+    margin-top: 24px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 215px);
+    grid-gap: 24px;
+    margin-left: 20px;
+}
+
+.hr-short{
+    width: 598px;
+    height: 0.6px;
+    background-color: #D9D7D7;
+    margin: 64px auto 48px;
+}
+
+.feel-span{
+    color: #3A606E;
+        font-family: "Roboto Mono";
+        font-weight: bold;
+        font-size: 14px;
+}
+
+.q-type{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fd-p{
+    color: #656565;
+    width: 460px;
+    font-style: italic;
+    margin-left: 4px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.fd-p::before {
+    content: "•";
+    /* Unicode for the bullet */
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-right: 4px;
+    transform: translateY(50%);
+    /* Center vertically */
+    color: #656565;
+    /* Bullet color */
+    font-size: 1em;
+    /* Adjust size if necessary */
+}
+
+.fd-p-text{
+    margin-top: 24px;
+}
+
+.break-p{
+    width: 480px;
+    margin-top: 64px;
+}
+.stats{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.user-persona{
+    height: 648px;
+    background-color: #A7BF9B;
+    position: relative;
+}
+.user-persona::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100vw;
+    /* Set the width to cover the entire viewport width */
+    height: 100%;
+    background-color: #A7BF9B;
+    /* Set the same background color as container */
+    transform: translateX(-50%);
+    /* Center the pseudo-element */
+    z-index: -1;
+    /* Move the pseudo-element behind the container */
+}
+
+.up-p{
+    width: 480px;
+    padding-top: 64px;
+}
+
+.up-span{
+    color: #EB1C24;
+    font-family: "Roboto Mono";
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 64px;
+}
+.up-desc{
+    width: 636px;
+}
+
+.up-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.up-name{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.name{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.occ{
+    font-style: italic;
+    font-weight: 400;
+}
+.strug-want{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.strug-title{
+    font-size: 16px;
+    font-weight: 600;
+}
+.sw-test{
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.up-img-desc{
+    font-size: 14px;
+    font-style: italic;
+    color: #656565;
+    margin-top: 6px;
+}
+
+.comp{
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(2, 480px);
+    grid-gap: 48px 187px;
+
+}
+.comp-p{
+   
+    margin-bottom: 16px;
+}
+.ideation{
+    margin-top: 64px;
+}
+.ide-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.ide-1c{
+    width: 480px;
+    margin-top: 64px;
+}
+.ide-p{
+    margin-bottom: 16px;
+}
+
+.hr-ide{
+    height: 0.6px;
+        background-color: #D9D7D7;
+        width: 598px;
+}
+
+.ab-test{
+    background-color: #FAF8F6;
+        position: relative;
+        height: 476px;
+        margin-top: 64px;
+}
+.ab-test
+    ::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 100vw;
+            /* Set the width to cover the entire viewport width */
+            height: 100%;
+            background-color: #FAF8F6;
+            /* Set the same background color as container */
+            transform: translateX(-50%);
+            /* Center the pseudo-element */
+            z-index: -1;
+            /* Move the pseudo-element behind the container */
+        }
+
+.ab-p{
+    font-style: italic;
+    color: #656565;
+    font-weight: 300;
+    margin-top: 32px;
+}
+.ab-con{
+    padding-top: 64px;
+}
+.screens{
+    margin-top: 40px;
+}
+.dec{
+    margin-top: 64px;
+}
+.why-test{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+
+}
+.lit-1{
+    width: 460px;
+}
+.li-t::before {
+    content: "•";
+    /* Unicode for the bullet */
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-right: 4px;
+    transform: translateY(50%);
+
+    /* Bullet color */
+    font-size: 1em;
+    /* Adjust size if necessary */
+}
+
+.p-res{
+    width: 480px;
+}
+
+.img-div{
+    margin-top: 64px;
+    margin-left: 250px;
+}
+.bef-s{
+     margin-left: 91px;
+        color: #EB1C24;
+            font-family: "Roboto Mono";
+            font-weight: bold;
+          
+          margin-top: 64px;
+            font-size: 14px;
+}
+.t-4{
+    margin-top: 64px;
+}
+.bef, .aft{
+    display: flex;
+        justify-content: center;
+        /* horizontal alignment */
+        align-items: center;
+        margin-top: 24px;
+}
+.ac{
+    margin-top: -210px;
+}
+.aft{
+    position: relative;
+}
+
+.rec{
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    
+}
+.conc{
+    color: #EB1C24;
+    font-family: "Roboto Mono";
+    font-weight: bold;
+    margin-top: 64px;
+    font-size: 14px;
+}
+.ch{
+    margin-bottom: 8px;
+}
+.conc-p{
+    font-weight: 300;
+    font-style: italic;
+    color: #292929;
+    margin-bottom: 24px;
+}
+
+.conclusions{
+    margin-bottom: 64px;
+}

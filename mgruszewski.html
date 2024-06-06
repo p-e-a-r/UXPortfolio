@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mgruszewski_styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+        rel="stylesheet">
+        <script src="redirect.js"></script>
+    <title>mgruszewski</title>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+        <div class="nav-items">
+            <a href="mgruszewski.html" class="title">mgruszewski</a>
+            <ul class="nav-list">
+                <li class="hov" id="my-work-link">my work</li>
+                <li class="hov" ><a href="mgruszewski_about.html">about me</a></li>
+                <li class="hov"><a href="mgruszewski_contact.html">contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="welcome-page">
+        <div class="heading">
+            <h2>I’m a UX/UI Designer who creates <span>better solutions</span> by putting <span>people first</span>.</h2>
+            <h2>I believe understanding and clear communication is what makes a success, no matter the problem.</h2>
+        </div>
+        <div class="img-container">
+            
+            <img class="circle-pic" src="circle.png">
+            <img class="profile-pic" src="zd1.JPG">
+        </div>
+    </div></div>
+    <div class="triangle"></div>
+    <div class="my-work">
+        <div class="work-cont">
+            <h1>My Work</h1>
+            <div class="hr"></div>
+
+            
+            <div class="project-container">
+                <div class="project-description">
+                    
+                        <img class="project-pic" src="mock3.png">
+                        <div class="p-d-text">
+                            <h3>Łączy Nas Piłka</h3>
+                            <p>Completed an end-to-end redesign process of a polish football's official sponsor's app, which allows for keeping
+                                up to date with games, scores etc. <br> Understanding user needs and tackling usability pain-points decreased
+                                time-on-task by over 50%.</p>
+                            <div class="p-info-cont">
+                                <ul class="p-info">
+                                    <li class="p-info-l">Role: UX Design, UI Design, Research</li>
+                                    <li class="p-info-l">Duration: 1.5 months</li>
+                                    <li class="p-info-l">Type: Conceptual</li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                    
+                </div>
+            </div>
+            <div class="project-container-2">
+                <div class="project-description">
+                    <img class="project-pic" src="mock2.png">
+                    <div class="p-d-text">
+                        <h3>Wolne Lektury</h3>
+                        <p>Improved experience of a free, digital library by adhering to design principles resulting
+                            in faster
+                            time-on-task and satisfaction score. It allowed to bring new features in line with company’s mission.</p>
+                        <div class="p-info-cont">
+                            <ul class="p-info">
+                                <li class="p-info-l">Role: UX Design, UI Design, Research</li>
+                                <li class="p-info-l">Duration: 1 month</li>
+                                <li class="p-info-l">Type: Conceptual</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script>
+        document.getElementById('my-work-link').addEventListener('click', function () {
+                document.querySelector('.my-work').scrollIntoView({ behavior: 'smooth' });
+            });
+        document.querySelector(".project-container").addEventListener("click", function () {
+            window.location.href = "LNP_project.html";
+        });
+        document.querySelector(".project-container-2").addEventListener("click", function () {
+                window.location.href = "WL_project.html";
+            });
+    </script>
+</body>
+</html>

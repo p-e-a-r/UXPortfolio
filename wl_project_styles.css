@@ -1,0 +1,411 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #090909;
+    font-family: "Roboto Serif";
+
+}
+
+body {
+    overflow-x: hidden;
+
+}
+.cover-img{
+    object-fit: c;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title1{
+    font-weight: 600;
+}
+
+.navbar {
+    height: 99px;
+    font-size: 16px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+li {
+    list-style: none;
+}
+.st{
+    color: #3A606E;
+}
+.title {
+    font-weight: 600;
+    font-size: 56px;
+    margin-bottom: 64px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 56px;
+}
+
+.fp {
+    height: 818px;
+    background-color: #FAF8F6;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.cover-img {
+    width: 100%;
+    height: 399px;
+    background-color: gray;
+    margin-top: 48px;
+}
+
+.titles {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.sub-titles {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-type {
+    margin-top: 10px;
+}
+
+.p-1 {
+    font-weight: 700;
+}
+
+.h3-title {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+.h2-title {
+    font-size: 32px;
+}
+
+.scope {
+    margin-left: -112px;
+}
+
+.span-tab{
+    color: #3A606E;
+        font-family: "Roboto Mono";
+        font-weight: bold;
+        font-size: 14px;
+}
+.span-goal{
+    color: #EB1C24;
+    font-family: "Roboto Mono";
+        font-weight: bold;
+        font-size: 14px;
+}
+p{
+    line-height: 140%;
+    margin-top: 16px;
+
+}
+
+.main {
+    width: 1140px;
+    margin: auto;
+}
+.one-c {
+    width: 480px;
+}
+
+.two-c {
+    width: 614px;
+    
+}
+.section{
+    display: flex;
+    margin-top: 64px;
+    justify-content: space-between;
+}
+.hr {
+    height: 0.6px;
+    background-color: #D9D7D7;
+}
+.hr-short {
+    width: 614px;
+    height: 0.6px;
+    background-color: #D9D7D7;
+    margin: 64px auto 48px;
+}
+
+.h1-goal{
+    font-size: 53px;
+}
+.goal{
+    margin-top: 64px;
+    margin-bottom: 96px;
+
+}
+
+.stat-date{
+    font-weight: 300;
+    color: #424242;
+}
+.info-title{
+    font-weight: 600;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.tk{
+    position: relative;
+    
+}
+.tk2{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 64px;
+}
+
+.tk2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100vw;
+    /* Set the width to cover the entire viewport width */
+    height: 100%;
+    background-color: #A7BF9B;
+    /* Set the same background color as container */
+    transform: translateX(-50%);
+    /* Center the pseudo-element */
+    z-index: -1;
+    /* Move the pseudo-element behind the container */
+    
+}
+.wlp{
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+.tklok{
+    margin-left: 48px;
+    margin-top: 40px;
+   
+}
+.desc-add{
+    font-style: italic;
+    position: absolute;
+    bottom: 64px;
+    left: 96px;
+    
+}
+.stats-2{
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
+}
+.s{
+    margin-bottom: -8px;
+    color: #3A606E;
+}
+.r{
+    color: #3A606E;
+}
+.wiki{
+    margin: 42px 0 64px 0;
+    font-size: 12px;
+}
+
+.title-color{
+    color: #3A606E;
+    font-size: 36px;
+    text-align: center;
+
+}
+.c2{
+    margin-top: 16px;
+}
+.problems{
+    font-weight: 600;
+    margin-left: 24px;
+}
+.p2{
+    margin-top: 4px;
+    width: 600px;
+    
+}
+.problems::before {
+    content: "•";
+    /* Unicode for the bullet */
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-right: 4px;
+    transform: translateY(50%);
+    /* Center vertically */
+    color: #090909;;
+    /* Bullet color */
+    font-size: 1em;
+    /* Adjust size if necessary */
+}
+.find{
+    margin-top: 64px;
+}
+
+.up-cont{
+    margin-top: 64px;
+}
+.up-span{
+    color: #3A606E;
+        font-family: "Roboto Mono";
+        font-weight: bold;
+        font-size: 14px;
+}
+
+
+
+.up-desc{
+    width: 600px;
+}
+.up-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.up-name {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.name {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.occ {
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.strug-want {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+.strug-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sw-test {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.up-img-desc {
+    font-size: 14px;
+    font-style: italic;
+    color: #656565;
+    margin-top: 6px;
+}
+.up-img-cont{
+    margin-top: 64px;
+}
+.strug > p {
+    width: 260px;
+}
+.desc{
+  font-style: italic;
+  width: 360px;
+}
+.ntpic{
+    margin-left: 310px;
+    margin-top: 20px;
+}
+.pn{
+    padding-bottom: 36px;
+}
+.ide::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100vw;
+    /* Set the width to cover the entire viewport width */
+    height: 100%;
+   
+    /* Set the same background color as container */
+    transform: translateX(-50%);
+    /* Center the pseudo-element */
+    z-index: -1;
+    /* Move the pseudo-element behind the container */
+    background-color: #FAF8F6;
+}
+.side{
+    position: relative;
+}
+.idtitl{
+    margin-bottom: -32px;
+    margin-top: 64px;
+    padding-top: 64px;
+}
+.stats-1{
+    padding-bottom: 64px;
+}
+.f{
+    margin-top: -16px;
+}
+.mil{
+    margin-top: 64px;
+}
+.wh{
+   margin-top: 24px;
+   margin-left: 260px;
+   margin-bottom: 42px;
+}
+.ww{
+    margin-top: 64px;
+}
+.ww > p {
+    width: 600px;
+}
+.kk{
+    margin-top: 20px;
+}
+.f4{
+margin-top: 64px;
+}
+.fin{
+    margin-bottom: 64px;
+}
+
+.conc{
+    margin-top: 48px;
+    margin-bottom: 64px;
+}
+.concp {
+    color: #1A1B1F;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.fc{
+    margin-bottom: 16px;
+}
+.devs{
+    width: 600px;
+    margin-bottom: 64px;
+    margin-top: 32px;
+}

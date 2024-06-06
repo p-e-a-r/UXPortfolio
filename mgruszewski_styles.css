@@ -1,0 +1,182 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    color: #090909;
+    font-family: "Roboto Serif";
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+.main{
+    height: 636px;
+        margin-left: 150px;
+            margin-right: 150px;
+}
+.navbar{
+    height: 99px;
+    font-size: 16px;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+.title{
+    font-weight: 600;
+}
+.nav-list{
+    display: flex;
+    gap: 56px;
+}
+
+ .project-container, .project-container-2 {
+     /* Your project-container styles */
+     cursor: pointer;
+     /* Add cursor pointer to indicate it's clickable */
+ }
+.welcome-page{
+   display: flex;
+
+}
+.profile-pic{
+    width: 500px;
+    border-radius: 50% 50% 0.5% 0.5%;
+    margin-left: 350px;
+    
+}
+.img-container{
+    padding-top: 100px;
+    z-index: 2;
+    
+}
+
+.heading{
+    width: 597px;
+    padding-top: 208px;
+    
+}
+h2{
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+span{
+    text-decoration: underline;
+}
+
+.my-work{
+    background-color: #FAF8F6;
+    z-index: 1;
+position: relative;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-left: 100vw solid #FAF8F6;
+    transform: scaleX(-1);
+}
+
+h1{
+    padding-left: 21px;
+}
+h1:before{
+   z-index: -1;
+    content: '';
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 18px;
+    left: -21px;
+    top: 40px;
+    background-color: #A7BF9B;
+}
+
+.work-cont{
+    padding-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.hr{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.project-pic{
+    height: 250px;
+    width: 250px;
+}
+
+.project-description{
+    display: flex;
+}
+.project-container-2{
+   margin-top: 96px;
+}
+.p-d-text{
+    padding-left: 48px;
+    width: 936px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.my-work{
+    height: 952px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 20px;
+    margin-top: -64px;
+    line-height: 140%;
+}
+
+.hr{
+    height: 1px;
+    background-color: #C8C8C8;
+}
+
+.p-info-l{
+    display: inline-block;
+    color: #686868;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 36px
+}
+.circle-pic{
+    z-index: -1;
+    position: absolute;
+    width: 300px;
+   right: 550px;
+   top: 170px;
+}
+@media (max-width: 1440px) {
+    h2 {
+        width: 600px;
+    }
+
+    .circle-pic {
+        right: 250px;
+    }
+
+    .profile-pic {
+        margin-left: 200px;
+    }
+}
